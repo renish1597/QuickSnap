@@ -130,6 +130,7 @@ namespace CardGames.GameLogic
 			if ( idx >= 0 && idx < _score.Length )
 				return _score[idx]; 
 			else
+				
 				return 0;
 		}
 
